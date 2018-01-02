@@ -10,7 +10,9 @@ module.exports = {
         expect: false,
         document: false,
         window: false,
-        Peer: false
+        navigator: false,
+        URL: false,
+        fetch: false,
     },
     rules: {
         "indent": ["error", 4, { SwitchCase: 1 }],
