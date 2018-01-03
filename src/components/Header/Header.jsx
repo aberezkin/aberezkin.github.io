@@ -1,11 +1,9 @@
 import React from 'react';
-
-const style = {
-  height: '100vh',
-};
+import './Header.css';
 
 const Header = () => (
-  <div style={style} />
+  <header />
 );
+
 
 export default Header;
