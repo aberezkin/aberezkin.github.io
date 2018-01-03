@@ -1,11 +1,12 @@
 import React from 'react';
+import { ThemeProvider } from 'styled-components';
 import About from '../About';
-import './App.css';
+import theme from '../../utilities/theme';
 
 const App = () => (
-    <div>
+    <ThemeProvider theme={theme}>
         <About />
-    </div>
+    </ThemeProvider>
 );
 
 export default App;
