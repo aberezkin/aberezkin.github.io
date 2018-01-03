@@ -22,7 +22,7 @@ const Image = styled.img`
     height: 256px;
   `}
   
-  ${props => props.fill && css`
+  ${props => props.filling && css`
     max-width: 100%;
     max-height: 100%;
   `}

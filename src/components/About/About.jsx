@@ -13,7 +13,7 @@ const About = () => (
     <Grid>
       <Row>
         <Col lg={4} md={4} sm={6} xs={12}>
-          <Image fill rounded src={profilepic} />
+          <Image filling rounded src={profilepic} />
         </Col>
         <Col lg={8} md={8} sm={6} xs={12}>
           <Title>Arkadii Berezkin</Title>
