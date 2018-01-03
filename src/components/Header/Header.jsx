@@ -11,7 +11,7 @@ const Header = () => {
     'web apps.',
     'mobile apps.',
     'backend servers.',
-    'with my heart.',
+    'with ❤️.',
   ];
 
   return (
