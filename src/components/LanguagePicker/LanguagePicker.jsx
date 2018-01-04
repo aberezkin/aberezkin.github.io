@@ -19,6 +19,7 @@ class LanguagePicker extends Component {
 
   pickLanguage = (language) => {
     this.setState({ picked: language });
+    this.props.onLanguagePick(language);
   };
 
   render() {
@@ -49,6 +50,7 @@ class LanguagePicker extends Component {
 
 LanguagePicker.propTypes = {
   initial: PropTypes.string,
+  onLanguagePick: PropTypes.func.isRequired,
 };
 
 LanguagePicker.defaultProps = {

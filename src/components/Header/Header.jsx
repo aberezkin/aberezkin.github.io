@@ -1,11 +1,13 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Typist from 'react-typist';
 import './Header.css';
 import LanguagePicker from '../LanguagePicker';
 import Title from '../Title';
 import TypistLoop from '../TypistLoop/';
+import texts from '../../utilities/texts';
 
-const Header = () => {
+const Header = ({ language, onLanguagePick }) => {
   const buildees = [
     'landing pages.',
     'corporate websites.',
@@ -17,11 +19,14 @@ const Header = () => {
 
   return (
     <header>
-      <LanguagePicker className="language-picker" />
+      <LanguagePicker
+        className="language-picker"
+        onLanguagePick={onLanguagePick}
+      />
       <div className="text">
         <div>
           <Title large><i className="em em-male-astronaut" /></Title>
-          <Title large>Hi, I&apos;m Ark and I build </Title>
+          <Title large>{texts[language]['hello-message']}</Title>
           <Title large>
             <TypistLoop>
               {
@@ -40,5 +45,13 @@ const Header = () => {
   );
 };
 
+Header.propTypes = {
+  language: PropTypes.string,
+  onLanguagePick: PropTypes.func.isRequired,
+};
+
+Header.defaultProps = {
+  language: 'us',
+};
 
 export default Header;
