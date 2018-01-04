@@ -1,0 +1,12 @@
+.language-wrapper {
+  padding: 4px;
+  border-radius: 100%;
+  display: inline;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.language-wrapper.active {
+  padding: 2px;
+  border: 2px solid papayawhip;
+}

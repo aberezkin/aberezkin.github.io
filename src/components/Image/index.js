@@ -7,6 +7,15 @@ const Image = styled.img`
     border-radius: 5px;
   `}
   
+  ${props => props.circle && css`
+    border-radius: 100%;
+  `}
+  
+  ${props => props.xsmall && css`
+    width: 32px;
+    heigth: 32px;
+  `}
+  
   ${props => props.small && css`
     width: 48px;
     height: 48px;
