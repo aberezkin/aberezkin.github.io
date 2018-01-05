@@ -30,10 +30,10 @@ class LanguagePicker extends Component {
         <Image
           xsmall
           circle
-          className={`language-wrapper ${picked === 'us' ? 'active' : ''}`}
+          className={`language-wrapper ${picked === 'en' ? 'active' : ''}`}
           src={us}
           alt="English"
-          onClick={() => this.pickLanguage('us')}
+          onClick={() => this.pickLanguage('en')}
         />
         <Image
           xsmall

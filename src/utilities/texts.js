@@ -3,8 +3,8 @@ export const TYPIST_SKILLS = 'typist-skills';
 export const FULL_NAME = 'full-name';
 export const ABOUT = 'about';
 
-export const languages = ['us', 'ru'];
-const languageToIndex = { us: 0, ru: 1 };
+export const languages = ['en', 'ru'];
+const languageToIndex = { en: 0, ru: 1 };
 
 const texts = {
   [FULL_NAME]: ['Arkadii Berezkin', 'Аркадий Березкин'],

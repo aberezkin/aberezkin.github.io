@@ -9,7 +9,7 @@ class App extends Component {
     super(props);
 
     this.state = {
-      language: 'us',
+      language: navigator.language.slice(0, 2),
     };
   }
 
