@@ -22,7 +22,7 @@ const About = ({ language }) => {
           </Col>
           <Col lg={8} md={8} sm={6} xs={12}>
             <Title>{getText(FULL_NAME, language)}</Title>
-            {paragraphs.map(p => <p>{p}</p>)}
+            {paragraphs.map(p => <p key={p}>{p}</p>)}
           </Col>
         </Row>
       </Grid>

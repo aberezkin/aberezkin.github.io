@@ -5,6 +5,7 @@ const Title = styled.div`
   margin-bottom: 16px;
 
   ${props => props.large && css`
+    line-height: 59px;
     font-size: 3em;
   `}
   
