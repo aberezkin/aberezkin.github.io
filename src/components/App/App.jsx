@@ -25,7 +25,7 @@ class App extends Component {
             language={this.state.language}
             onLanguagePick={this.setLanguage}
           />
-          <About />
+          <About language={this.state.language} />
         </div>
       </ThemeProvider>
     );
