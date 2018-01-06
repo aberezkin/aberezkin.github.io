@@ -36,6 +36,7 @@
     "react": "^16.2.0",
     "react-dev-utils": "^4.2.1",
     "react-dom": "^16.2.0",
+    "react-fontawesome": "^1.6.1",
     "react-styled-flexboxgrid": "^2.1.1",
     "react-typist": "^2.0.4",
     "style-loader": "0.19.0",

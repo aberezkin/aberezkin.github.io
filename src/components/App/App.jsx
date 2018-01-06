@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { ThemeProvider } from 'styled-components';
-import About from '../About';
 import Header from '../Header';
 import theme from '../../utilities/theme';
+import Skills from '../Skills/Skills';
 
 class App extends Component {
   constructor(props) {
@@ -25,7 +25,7 @@ class App extends Component {
             language={this.state.language}
             onLanguagePick={this.setLanguage}
           />
-          <About language={this.state.language} />
+          <Skills />
         </div>
       </ThemeProvider>
     );

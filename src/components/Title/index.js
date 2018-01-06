@@ -10,7 +10,7 @@ const Title = styled.div`
   `}
   
   ${props => props.sub && css`
-    font-size: 1em;
+    font-size: 1.35em;
   `}
   
   ${props => props.bold && css`
