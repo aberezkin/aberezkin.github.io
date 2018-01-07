@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { ThemeProvider } from 'styled-components';
-import Header from '../Header';
 import theme from '../../utilities/theme';
+import Header from '../Header';
 import Skills from '../Skills/Skills';
+import Footer from '../Footer/Footer';
 
 class App extends Component {
   constructor(props) {
@@ -26,6 +27,7 @@ class App extends Component {
             onLanguagePick={this.setLanguage}
           />
           <Skills />
+          <Footer />
         </div>
       </ThemeProvider>
     );

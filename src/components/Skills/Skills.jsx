@@ -20,7 +20,7 @@ const Skills = () => (
     <Grid style={{ paddingTop: 42 }}>
       <Row center="sm">
         <Col lg={4} md={4} sm={6} xs={12}>
-          <Title large className="icon"><FontAwesome name="safari" /></Title>
+          <Title large className="icon-grad"><FontAwesome name="safari" /></Title>
           <Title className="title">Web</Title>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -30,7 +30,7 @@ const Skills = () => (
           </p>
         </Col>
         <Col lg={4} md={4} sm={6} xs={12}>
-          <Title large className="icon"><FontAwesome name="tablet" /></Title>
+          <Title large className="icon-grad"><FontAwesome name="tablet" /></Title>
           <Title className="title">Mobile</Title>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -40,7 +40,7 @@ const Skills = () => (
           </p>
         </Col>
         <Col lg={4} md={4} sm={6} xs={12}>
-          <Title large className="icon"><FontAwesome name="server" /></Title>
+          <Title large className="icon-grad"><FontAwesome name="server" /></Title>
           <Title className="title">Backend</Title>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.

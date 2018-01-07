@@ -1,11 +1,3 @@
-.icon .fa:before {
-  background:
-    /*linear-gradient(to left, rgba(65, 88, 208, 1) 0%, rgba(200, 80, 192, 1) 46%, rgba(255, 204, 112, 1) 100%);*/
-    linear-gradient(90deg, #FEE140 0%, #fc4083 50%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .title {
   background:
     /*linear-gradient(to left, rgba(65, 88, 208, 1) 0%, rgba(200, 80, 192, 1) 46%, rgba(255, 204, 112, 1) 0%);*/

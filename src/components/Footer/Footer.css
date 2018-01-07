@@ -1,0 +1,37 @@
+.footer {
+  padding-top: 56px;
+  padding-bottom: 32px;
+  background: #323232;
+  border-top: 6px solid #414141;
+  color: #7f7f7f;
+  font-family: "Open Sans", serif;
+}
+
+.made-by {
+  margin-bottom: 16px;
+}
+
+.sm-wrapper {
+  display: inline-block;
+  line-height: 46px;
+  height: 42px;
+  width: 42px;
+  text-align: center;
+  background: #272727;
+  margin-right: 8px;
+  border-radius: 100%;
+  transition: background .3s;
+}
+
+.sm-wrapper:hover {
+  background: #151515;
+}
+
+.large.fa {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.medium.fa {
+  font-size: 24px;
+}
