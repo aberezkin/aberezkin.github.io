@@ -1,0 +1,9 @@
+.projects {
+  text-align: center;
+  height: 60vh;
+  color: #fff;
+  background:
+    linear-gradient(135deg, #ff9966, #fc4083);
+    /*linear-gradient(135deg, #283c86, #45a247);*/
+    /*linear-gradient(135deg, #EF3B36, #ffffff);*/
+}

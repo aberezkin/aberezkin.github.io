@@ -5,15 +5,39 @@ import './Footer.css';
 
 const Footer = () => (
   <div className="footer">
-    <FontAwesome className="icon-grad large" name="grav" />
-    <br />
     <div className="made-by">Made by me &copy; {new Date().getFullYear()}</div>
     <div>
-      <a className="sm-wrapper" href="https://twitter.com/arkberezkin">
+      <a
+        className="sm-wrapper"
+        href="https://twitter.com/arkberezkin"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <FontAwesome className="icon-grad medium" name="twitter" />
       </a>
-      <a className="sm-wrapper" href="https://github.com/aberezkin">
+      <a
+        className="sm-wrapper"
+        href="https://github.com/aberezkin"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <FontAwesome className="icon-grad medium" name="github" />
+      </a>
+      <a
+        className="sm-wrapper"
+        href="https://www.linkedin.com/in/aberezkin/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FontAwesome className="icon-grad medium" name="linkedin" />
+      </a>
+      <a
+        className="sm-wrapper"
+        href="https://angel.co/aberezkin"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FontAwesome className="icon-grad medium" name="angellist" />
       </a>
     </div>
   </div>

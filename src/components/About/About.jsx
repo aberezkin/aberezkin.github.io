@@ -7,7 +7,7 @@ import getText, { languages, FULL_NAME, ABOUT } from '../../utilities/texts';
 import profilepic from './img/profilepic.jpg';
 
 const styles = {
-  margin: 16,
+  margin: 48,
 };
 
 const About = ({ language }) => {
@@ -20,7 +20,7 @@ const About = ({ language }) => {
           <Col lg={4} md={4} sm={6} xs={12}>
             <Image filling rounded src={profilepic} />
           </Col>
-          <Col lg={8} md={8} sm={6} xs={12}>
+          <Col lg={8} md={8} sm={6} xs={12} style={{ textAlign: 'left' }}>
             <Title>{getText(FULL_NAME, language)}</Title>
             {paragraphs.map(p => <p key={p}>{p}</p>)}
           </Col>

@@ -3,7 +3,9 @@ import { ThemeProvider } from 'styled-components';
 import theme from '../../utilities/theme';
 import Header from '../Header';
 import Skills from '../Skills/Skills';
+import Projects from '../Projects/Projects';
 import Footer from '../Footer/Footer';
+import About from '../About';
 
 class App extends Component {
   constructor(props) {
@@ -27,6 +29,8 @@ class App extends Component {
             onLanguagePick={this.setLanguage}
           />
           <Skills />
+          <Projects />
+          <About language={this.state.language} />
           <Footer />
         </div>
       </ThemeProvider>

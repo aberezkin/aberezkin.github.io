@@ -6,15 +6,13 @@ import './Skills.css';
 
 const style = {
   textAlign: 'center',
-  paddingTop: 96,
-  paddingBottom: 96,
   overflow: 'hidden',
   paddingLeft: 16,
   paddingRight: 16,
 };
 
 const Skills = () => (
-  <div style={style}>
+  <div className="block" style={style}>
     <Title large bold>My expertise</Title>
     <Title sub>I can do any part of an application.</Title>
     <Grid style={{ paddingTop: 42 }}>

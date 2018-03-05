@@ -13,3 +13,8 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.block {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
