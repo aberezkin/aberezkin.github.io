@@ -7,6 +7,7 @@ const Footer = () => (
   <div className="footer">
     <div className="made-by">Made by me &copy; {new Date().getFullYear()}</div>
     <div>
+      {/* TODO: move these links to separate component for reusage */}
       <a
         className="sm-wrapper"
         href="https://twitter.com/arkberezkin"
@@ -39,6 +40,13 @@ const Footer = () => (
       >
         <FontAwesome className="icon-grad medium" name="angellist" />
       </a>
+      <a
+        className="sm-wrapper"
+        href="mailto:berezkinarkadii@gmail.com"
+      >
+        <FontAwesome className="icon-grad medium" name="envelope-o" />
+      </a>
+
     </div>
   </div>
 );

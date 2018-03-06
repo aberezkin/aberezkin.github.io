@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Grid, Row, Col } from 'react-styled-flexboxgrid';
 import Image from '../Image';
 import Title from '../Title';
-import getText, { languages, FULL_NAME, ABOUT } from '../../utilities/texts';
+import getText, {languages, FIRST_NAME, ABOUT, GREETINGS, DROP_A_LINE} from '../../utilities/texts';
 import profilepic from './img/profilepic.jpg';
 
 const styles = {
@@ -18,11 +18,16 @@ const About = ({ language }) => {
       <Grid>
         <Row>
           <Col lg={4} md={4} sm={6} xs={12}>
-            <Image filling rounded src={profilepic} />
+            <Image filling rounded large src={profilepic} />
           </Col>
-          <Col lg={8} md={8} sm={6} xs={12} style={{ textAlign: 'left' }}>
-            <Title>{getText(FULL_NAME, language)}</Title>
-            {paragraphs.map(p => <p key={p}>{p}</p>)}
+          <Col lg={6} md={6} sm={6} xs={12} style={{ textAlign: 'left' }}>
+            <Title>{getText(GREETINGS, language) + getText(FIRST_NAME, language)}</Title>
+            {paragraphs.map((p, i) => <p key={i}>{p}</p>)}
+            <p>
+              {getText(DROP_A_LINE, language)}
+              <a href="mailto:berezkinarkadii@gmail.com?subject=Let's%20work%togeter">berezkinarkadii@gmail.com</a>
+              .
+            </p>
           </Col>
         </Row>
       </Grid>
