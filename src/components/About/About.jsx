@@ -15,7 +15,7 @@ const About = ({ language }) => {
 
   return (
     <div style={styles}>
-      <Grid>
+      <Grid fluid>
         <Row>
           <Col lg={4} md={4} sm={6} xs={12}>
             <Image filling rounded large src={profilepic} />

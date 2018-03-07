@@ -19,6 +19,7 @@
     "gatsby-plugin-google-fonts": "^0.0.3",
     "gatsby-plugin-react-helmet": "^2.0.6",
     "jest": "20.0.4",
+    "lodash": "^4.17.5",
     "object-assign": "4.1.1",
     "promise": "8.0.1",
     "prop-types": "^15.6.0",
@@ -29,6 +30,7 @@
     "react-fontawesome": "^1.6.1",
     "react-helmet": "^5.2.0",
     "react-styled-flexboxgrid": "^2.1.1",
+    "react-swipeable": "^4.2.0",
     "react-typist": "^2.0.4",
     "styled-components": "^2.4.0",
     "whatwg-fetch": "2.0.3"

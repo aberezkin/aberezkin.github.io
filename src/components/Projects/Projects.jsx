@@ -5,7 +5,8 @@ import './Projects.css';
 const Projects = () => (
   <div className="projects block">
     <Title large>My projects</Title>
-    <Title sub>I have none, sorry</Title>
+    <Title sub>That&#39;s what i&#39;ve been creating lately.</Title>
+
   </div>
 );
 
