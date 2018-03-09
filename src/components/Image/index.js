@@ -13,7 +13,7 @@ const Image = styled.img`
   
   ${props => props.xsmall && css`
     width: 32px;
-    heigth: 32px;
+    height: 32px;
   `}
   
   ${props => props.small && css`

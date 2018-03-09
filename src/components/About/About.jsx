@@ -6,15 +6,11 @@ import Title from '../Title';
 import getText, {languages, FIRST_NAME, ABOUT, GREETINGS, DROP_A_LINE} from '../../utilities/texts';
 import profilepic from './img/profilepic.jpg';
 
-const styles = {
-  margin: 48,
-};
-
 const About = ({ language }) => {
   const paragraphs = getText(ABOUT, language);
 
   return (
-    <div style={styles}>
+    <div style={{ margin: '48px 0'}}>
       <Grid fluid>
         <Row>
           <Col lg={4} md={4} sm={6} xs={12}>

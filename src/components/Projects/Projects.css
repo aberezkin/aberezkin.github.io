@@ -1,9 +1,49 @@
 .projects {
   text-align: center;
-  height: 60vh;
   color: #fff;
+  position: relative;
+}
+
+.projects:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  left: 0; right: 0; top: 0; bottom: 0;
+
+  transform: skewY(4deg);
   background:
-    linear-gradient(135deg, #ff9966, #fc4083);
-    /*linear-gradient(135deg, #283c86, #45a247);*/
-    /*linear-gradient(135deg, #EF3B36, #ffffff);*/
+      linear-gradient(135deg, #ff9966, #fc4083);
+  /*linear-gradient(135deg, #283c86, #45a247);*/
+  /*linear-gradient(135deg, #EF3B36, #ffffff);*/
+}
+
+.project {
+  margin-bottom: 64px;
+}
+
+.illustrations {
+  max-width: 100%;
+  text-align: center;
+  position: relative;
+  clear: both;
+}
+
+.browser {
+  position: absolute;
+  width: 100%;
+}
+
+.phone {
+  z-index: 100;
+  margin-top: 2em;
+  position: relative;
+}
+
+.phone.left {
+  left: 30%;
+}
+
+.phone.right {
+  right: 30%;
 }
