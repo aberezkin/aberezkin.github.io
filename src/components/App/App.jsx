@@ -18,11 +18,11 @@ class App extends Component {
     };
   }
 
-  componentDidMount() {
-    this.state = {
-      language: navigator.language.slice(0, 2),
-    };
-  }
+  // componentDidMount() {
+  //   this.state = {
+  //     language: navigator.language.slice(0, 2),
+  //   };
+  // }
 
   setLanguage = (language) => {
     this.setState({ language });
