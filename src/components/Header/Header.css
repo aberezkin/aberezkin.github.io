@@ -1,18 +1,34 @@
 header {
   height: 100vh;
   min-height: 350px;
-  background-color: #21D4FD;
-  background:
-      linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      linear-gradient(315deg, rgba(65, 88, 208, .35) 0%, rgba(200, 80, 192, .35) 46%, rgba(255, 204, 112, .35) 100%),
-      url('img/background.jpg') no-repeat;
-
-  background-size: cover;
   text-align: center;
   color: white;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  /*background-color: #21D4FD;*/
+  /*background:*/
+      /*linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),*/
+      /*linear-gradient(315deg, rgba(65, 88, 208, .35) 0%, rgba(200, 80, 192, .35) 46%, rgba(255, 204, 112, .35) 100%),*/
+      /*url('img/background.jpg') no-repeat;*/
+  /*background-size: cover;*/
+  position: relative;
+}
+
+header:before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  left: 0; right: 0; top: -10%;
+  height: 120%;
+  transform: skewY(-4deg);
+
+  background-color: #21D4FD;
+  background:
+      linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      linear-gradient(315deg, rgba(65, 88, 208, .35) 0%, rgba(200, 80, 192, .35) 46%, rgba(255, 204, 112, .35) 100%),
+      url('img/background.jpg') no-repeat;
+  background-size: cover;
 }
 
 .text {

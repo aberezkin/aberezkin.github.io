@@ -6,11 +6,11 @@ import HeaderText from '../HeaderText';
 
 const Header = ({ language, onLanguagePick }) => (
   <header>
-    <LanguagePicker
-      className="language-picker"
-      initial={language}
-      onLanguagePick={onLanguagePick}
-    />
+    {/*<LanguagePicker*/}
+      {/*className="language-picker"*/}
+      {/*initial={language}*/}
+      {/*onLanguagePick={onLanguagePick}*/}
+    {/*/>*/}
     <div className="text">
       <HeaderText language={language} />
     </div>
