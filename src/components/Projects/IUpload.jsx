@@ -8,18 +8,30 @@ import Ng2ImageUpload from './img/ng2-image-upload.png';
 const IUpload = () => (
   <Row reverse center="lg" className="project">
     <Col lg={7} md={7} sm={6} xs={12}>
-      <div className="illustrations">
-        <Frame browser>
-          <Image
-            filling
-            src={Ng2ImageUpload}
-          />
-        </Frame>
-      </div>
+      <a
+        href="https://aberezkin.github.io/ng2-image-upload/#/demo"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className="illustrations">
+          <Frame browser>
+            <Image
+              filling
+              src={Ng2ImageUpload}
+            />
+          </Frame>
+        </div>
+      </a>
     </Col>
     <Col lg={5} md={5} sm={6} xs={12}>
       <div style={{ textAlign: 'right' }}>
-        <Title>ng2-image-upload</Title>
+        <a
+          href="https://aberezkin.github.io/ng2-image-upload/#/demo"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Title>ng2-image-upload</Title>
+        </a>
         <p>
           This is an angular library that I made
           and published while working on Melone.io.

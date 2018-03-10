@@ -22,7 +22,7 @@ const WannaWork = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesome className="icon-grad medium" name="twitter" />
+        <FontAwesome className="medium" name="twitter" />
       </a>
       <a
         className="sm-wrapper"
@@ -30,7 +30,7 @@ const WannaWork = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesome className="icon-grad medium" name="github" />
+        <FontAwesome className="medium" name="github" />
       </a>
       <a
         className="sm-wrapper"
@@ -38,7 +38,7 @@ const WannaWork = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesome className="icon-grad medium" name="linkedin" />
+        <FontAwesome className="medium" name="linkedin" />
       </a>
       <a
         className="sm-wrapper"
@@ -46,13 +46,13 @@ const WannaWork = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesome className="icon-grad medium" name="angellist" />
+        <FontAwesome className="medium" name="angellist" />
       </a>
       {/*<a*/}
         {/*className="sm-wrapper"*/}
         {/*href="mailto:berezkinarkadii@gmail.com"*/}
       {/*>*/}
-        {/*<FontAwesome className="icon-grad medium" name="envelope-o" />*/}
+        {/*<FontAwesome className="medium" name="envelope-o" />*/}
       {/*</a>*/}
     </div>
   </div>

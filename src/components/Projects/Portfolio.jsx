@@ -36,6 +36,16 @@ const Portfolio = () => (
       As you may have guessed I made that portfolio too. <br />
       I used React and Gatsby for that. Hope you like it ;)
     </p>
+    <p style={{ fontSize: '0.7em', opacity: 0.7}}>
+      You can see its source code &nbsp;
+      <a
+        href="https://github.com/aberezkin/aberezkin.github.io"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        here
+      </a>
+    </p>
   </div>
 );
 

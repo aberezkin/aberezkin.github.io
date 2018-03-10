@@ -9,9 +9,8 @@
   z-index: -1;
   content: "";
   position: absolute;
-  left: 0; right: 0;
-  top: -5%;
-  height: 140%;
+  left: 0; right: 0;  top: 0;
+  height: 130%;
   background:
     linear-gradient(-135deg, #fc4083, #FF9A8B);
   /*background-color: #FBDA61;*/
@@ -21,12 +20,11 @@
 }
 
 .icon-grad .fa:before, .icon-grad.fa:before {
-  color: white;
-  /*background:*/
-  /*linear-gradient(to left, rgba(65, 88, 208, 1) 0%, rgba(200, 80, 192, 1) 46%, rgba(255, 204, 112, 1) 100%);*/
+  background:
+  linear-gradient(to left, rgba(65, 88, 208, 1) 0%, rgba(200, 80, 192, 1) 46%, rgba(255, 204, 112, 1) 100%);
   /*linear-gradient(90deg, #FEE140 0%, #fc4083 50%);*/
-  /*-webkit-background-clip: text;*/
-  /*-webkit-text-fill-color: transparent;*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
@@ -48,6 +46,10 @@
 
 .medium.fa {
   font-size: 24px;
+}
+
+.large.fa {
+  font-size: 48px;
 }
 
 .socials {

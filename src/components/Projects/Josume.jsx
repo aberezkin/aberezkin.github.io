@@ -9,27 +9,39 @@ import JosumeMobile from './img/josume-mobile.png';
 const Josume = () => (
   <Row reverse center="lg" className="project">
     <Col lg={7} md={7} sm={6} xs={12}>
-      <div className="illustrations">
-        <div className="browser">
-          <Frame browser>
+      <a
+        href="https://josume.herokuapp.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className="illustrations">
+          <div className="browser">
+            <Frame browser>
+              <Image
+                filling
+                src={JosumeScreenshot}
+              />
+            </Frame>
+          </div>
+          <Frame className="phone left">
             <Image
               filling
-              src={JosumeScreenshot}
+              style={{ borderRadius: 20 }}
+              src={JosumeMobile}
             />
           </Frame>
         </div>
-        <Frame className="phone left">
-          <Image
-            filling
-            style={{ borderRadius: 20 }}
-            src={JosumeMobile}
-          />
-        </Frame>
-      </div>
+      </a>
     </Col>
     <Col lg={5} md={5} sm={6} xs={12}>
       <div style={{ textAlign: 'right' }}>
-        <Title>Josume</Title>
+        <a
+          href="https://josume.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Title>Josume</Title>
+        </a>
         <p>
           Josume is a hackathon project that was made in under 48 hours.
           The goal was to make a service that can predict best carrier
