@@ -20,8 +20,7 @@
 }
 
 .icon-grad .fa:before, .icon-grad.fa:before {
-  background:
-  linear-gradient(90deg, #FEE140 0%, #fc4083 50%);
+  background: linear-gradient(135deg, #ff9966, #fc4083);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
