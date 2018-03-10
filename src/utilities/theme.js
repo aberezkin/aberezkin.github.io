@@ -1,7 +1,7 @@
 const theme = {
   flexboxgrid: {
     gridSize: 12, // rem
-    gutterWidth: 1, // rem
+    gutterWidth: 0.5, // rem
     outerMargin: 2, // rem
     mediaQuery: 'only screen',
     container: {
