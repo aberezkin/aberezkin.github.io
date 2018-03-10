@@ -1,0 +1,20 @@
+#wanna-work {
+  position: relative;
+  color: #fff;
+  padding-bottom: 44px;
+}
+
+#wanna-work:before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: -5%;
+  height: 140%;
+  background:
+    linear-gradient(-135deg, #fc4083, #FF9A8B);
+  /*background-color: #FBDA61;*/
+  /*background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);*/
+
+  transform: skewY(-4deg);
+}

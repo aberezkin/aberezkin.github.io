@@ -46,7 +46,6 @@ const Footer = () => (
       >
         <FontAwesome className="icon-grad medium" name="envelope-o" />
       </a>
-
     </div>
   </div>
 );

@@ -7,7 +7,7 @@ import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
 import Footer from '../Footer/Footer';
 import About from '../About';
-
+import WannaWork from '../WannaWork';
 
 class App extends Component {
   constructor(props) {
@@ -42,6 +42,7 @@ class App extends Component {
           <Skills />
           <Projects />
           <About language={this.state.language} />
+          <WannaWork />
           <Footer />
         </div>
       </ThemeProvider>
