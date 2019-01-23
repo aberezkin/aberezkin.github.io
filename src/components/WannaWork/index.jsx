@@ -10,7 +10,7 @@ const WannaWork = () => (
     <Title sub>
       Drop me a line to &nbsp;
       <a href="mailto:arkm4n@gmail.com?subject=Let's%20work%togeter">
-        arkm4n@melone.io
+        arkm4n@gmail.com
       </a>.
     </Title>
     <p style={{ opacity: 0.7, fontSize: '.85em' }}>Or in any of these social networks :)</p>
