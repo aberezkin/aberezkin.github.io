@@ -9,8 +9,8 @@ const WannaWork = () => (
     <Title large bold>Want to work together?</Title>
     <Title sub>
       Drop me a line to &nbsp;
-      <a href="mailto:berezkinarkadii@gmail.com?subject=Let's%20work%togeter">
-        arkadii@melone.io
+      <a href="mailto:arkm4n@gmail.com?subject=Let's%20work%togeter">
+        arkm4n@melone.io
       </a>.
     </Title>
     <p style={{ opacity: 0.7, fontSize: '.85em' }}>Or in any of these social networks :)</p>
